@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Card";
+}
+
+<main>
+    <section id="home-login-page">
+        <div class="container-lg pb-lg-4 container pb-4">
+            <div class="home-account">
+                <p>
+                    <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span style="color: #8f95ac;">Cart</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="cart-cart">
+        <div class="container-xxl mt-xl-5">
+            <div class="row">
+                <div class="col-xl-8 col-md-12 col-lg-12">
+                    <div class="table-product">
+                        <table>
+                            <tr>
+                                <th class="prod-img"></th>
+                                <th class="prod-name">Product</th>
+                                <th class="prod-price">Price</th>
+                                <th class="prod-quantity">Quantity</th>
+                                <th class="prod-total">Subtotal</th>
+                                <th class="prod-remove"></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td class="prod-img">
+                                    <a href="#">
+                                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-90x90.jpg" alt="">
+                                    </a>
+                                </td>
+                                <td class="prod-name"><a href="#">All Natural Italian-Style Chicken Meatballs</a></td>
+                                <td class="prod-price">7.25</td>
+                                <td class="prod-quantity"><span class="plus"><i class="fa-solid fa-minus"></i></span> 1 <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                <td class="prod-total">$7.25</td>
+                                <td class="prod-remove"><a href="#"><i class="fa-solid fa-x"></i></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="input-cart mt-xl-4">
+                        <div class="row">
+                            <div class="col-xxl-10 col-lg-10 col-md-10 col-sm-12">
+                                <input type="text" placeholder="Coupon Code">
+                                <input type="button" value="Apply Coupon">
+                            </div>
+                            <div class="col-xxl-2 col-lg-2 col-md-2 col-sm-12">
+                                <input type="button" value="Update cart" class="disabled-input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Payment -->
+                <div class="col-xl-4 col-md-12 col-lg-12">
+                    <div class="cart-box">
+                        <h2>Card Totals</h2>
+                        <table>
+                            <tr>
+                                <th class="subtotal">Subtotal</th>
+                                <td class="price">$7.25</td>
+                            </tr>
+                            <tr>
+                                <th class="ship">Shipping</th>
+                                <td class="ship-detail">
+                                    <p>Flat rate: <span>$5</span> <input type="radio"></p>
+                                    <p>Free shipping: <input type="radio"></p>
+                                    <p>Local pickup: <input type="radio"></p>
+                                    <p>Shipping to <b>Al</b></p>
+
+                                    <p class="mt-xl-1"><a href="#">Change Adress</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="total">Total</th>
+                                <td class="final-price">$7.25</td>
+                            </tr>
+                        </table>
+                        <div class="btn-cart-box">
+                            <a href="#" class="checkout">Procced to Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
